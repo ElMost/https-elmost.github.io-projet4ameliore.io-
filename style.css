@@ -746,6 +746,9 @@ blockquote {
     margin: -10px;
     color: #333333;
 }
+#contact{
+    text-align: center;
+}
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
