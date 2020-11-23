@@ -711,14 +711,14 @@ h4 {
     font-size: 1.2em;
 }
 a:link {
-    color: white !important;
+    color: black !important;
 }
 .btn-atomic-tangerine:hover {
     background: #364577 !important;
     color: #ffffff !important;
 }
 .ltc-white {
-    color:  white !important;
+    color: white !important;
     font-size: 1.5em;
 }
 .ltc-white:hover {
