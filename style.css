@@ -16,6 +16,10 @@ body {
     font-weight: bold;
     text-shadow: 2px 2px 4px black;
 }
+.lu:hover{
+    background-color: coral;
+    border-radius: 30px;
+}
 a,
 button {
     transition: all 0.3s ease-in-out;
@@ -44,6 +48,9 @@ a:hover {
     -o-background-size: cover;
     background-size: cover;
     position: relative;
+}
+#bloc-0{
+    background-color: rgba(41, 61, 126, 0.3);
 }
 .bloc .container {
     padding-left: 0;
@@ -712,6 +719,7 @@ h4 {
 }
 a:link {
     color: black !important;
+    
 }
 .btn-atomic-tangerine:hover {
     background: #364577 !important;
@@ -1028,9 +1036,11 @@ blockquote {
 
 li:hover {
     text-decoration: underline;
-  }
+   
+}
 
-  .black{
+
+.black{
     background:  rgba(41, 61, 126, 0.5) ;
     padding: 20px 20px 20px 20px;
-  }
+}
