@@ -23,6 +23,7 @@ button {
 }
 a:hover {
     text-decoration: underline;
+    color: white;
     cursor: pointer;
 }
 #page-loading-blocs-notifaction {
@@ -57,6 +58,16 @@ a:hover {
 .bloc-sm {
     padding: 20px 50px;
 }
+#bloc-7{
+    background-color:  rgba(54, 69, 119, 0.5);
+  
+}
+.web{
+    margin-bottom: 20px;
+}
+iframe {
+    box-shadow: 5px 5px;
+  }
 .bg-center,
 .bg-l-edge,
 .bg-r-edge,
@@ -268,7 +279,6 @@ a:hover {
 }
 .navbar-brand img {
     max-height: 200px;
-    width: auto;
     margin: 0 5px 0 0;
     display: inline;
 }
@@ -292,6 +302,7 @@ a:hover {
 .navbar-nav .open .dropdown-menu > li > a {
     text-align: inherit;
 }
+
 .nav > li a:hover,
 .nav > li a:focus {
     background: transparent;
@@ -318,9 +329,17 @@ a:hover {
 }
 .img-responsive {
     margin-left: auto;
-    margin-right: auto; 
-    
+    margin-right: auto;  
 }
+.col12{
+    padding-right: 1px;
+    padding-left: 1px;
+}
+/* .la-chouette{
+    margin-left: 10px;
+    width: 50%;
+    height: 40px;
+} */
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -574,7 +593,7 @@ label,
     color: #575757 !important;
 }
 .container {
-    max-width: 1000px;
+    max-width: 95%;
 }
 /* .hero-bloc-text {
     font-size: 25px;
@@ -601,6 +620,9 @@ p {
 .h1 {
     font-size: 30px;
     font-family: "Open Sans";
+}
+h4{
+    font-size: 30px;
 }
 .cta-hero {
     margin-top: 22px;
@@ -645,9 +667,10 @@ h4 {
 }
 .white {
     color: #ffffffef !important;
-    font-size: 1.3em;
+    font-size: 1.2em;
+    text-shadow: 1px 1px 1px black;
 }
-
+ 
 .portfolio-thumb {
     margin-bottom: 24px;
     
@@ -688,17 +711,18 @@ h4 {
     font-size: 1.2em;
 }
 a:link {
-    color: white;
+    color: white !important;
 }
 .btn-atomic-tangerine:hover {
     background: #364577 !important;
     color: #ffffff !important;
 }
 .ltc-white {
-    color: #ffffff !important;
+    color:  #cccccc  !important;
+    font-size: 1.5em;
 }
 .ltc-white:hover {
-    color: #cccccc !important;
+    color:white !important;
 }
 .ltc-atomic-tangerine {
     color: #364577 !important;
@@ -725,6 +749,11 @@ a:link {
     width: 100%;
     height: auto;
 }
+.la-chouette{
+    margin-left: 10px;
+    width: 230px;
+   
+}
 .bg-presentation {
     background-image: url("img/image-de-presentation.webp");
     width: 100%;
@@ -735,19 +764,16 @@ a:link {
     height: 100;
 }
 .text-police {
-    margin: 1em;
+    margin: 0 1em;
     font-family: "Raleway", sans-serif;
     font-size: 1.3em;
 }
 .police2 {
-    margin: 1em 1em 0em 1em;
+    margin: 0.5em 0.5em 0em 0.5em;
 }
 blockquote {
-    margin: -10px;
+    margin: -5px;
     color: #333333;
-}
-#contact{
-    text-align: center;
 }
 @media (max-width: 1024px) {
     .bloc {
@@ -821,8 +847,8 @@ blockquote {
     h6,
     p,
     #disqus_thread {
-        padding-left: 10px !important;
-        padding-right: 10px !important;
+        padding-left: 1px !important;
+        padding-right: 1px !important;
     }
     .b-parallax {
         background-attachment: scroll;
@@ -929,8 +955,11 @@ blockquote {
     .voffset-lg {
         margin-top: 30px;
     }
-    form {
+    form, .col{
         padding: 5px;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
     }
     .close-lightbox {
         display: inline-block;
@@ -973,6 +1002,16 @@ blockquote {
     .bloc-mob-center-text {
         text-align: center;
     }
+    iframe{
+        width:100%;
+        justify-content: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        
+        box-shadow: none;
+          
+              
+    }
 }
 @media (max-width: 425px) {
     .bloc {
@@ -985,3 +1024,13 @@ blockquote {
    
 }
 
+
+
+li:hover {
+    text-decoration: underline;
+  }
+
+  .black{
+    background:  rgba(54, 69, 119, 0.5) ;
+    padding: 20px 20px 20px 20px;
+  }
