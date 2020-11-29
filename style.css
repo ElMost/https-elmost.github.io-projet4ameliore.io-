@@ -27,7 +27,7 @@ button {
 }
 a:hover {
     text-decoration: underline;
-    color: white;
+    color: #ffffff;
     cursor: pointer;
 }
 #page-loading-blocs-notifaction {
@@ -347,6 +347,19 @@ iframe {
     width: 50%;
     height: 40px;
 } */
+li:hover {
+    text-decoration: underline; 
+    color: white;  
+}
+
+.black{
+    /* background:  rgba(41, 61, 126, 0.5) ; */
+    background-color: rgb(247 207 152 / 50%);
+    padding: 20px 20px 20px 20px;
+}
+li{
+    color: #000000;
+}
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -417,8 +430,8 @@ nav .caret {
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
-    color: #ffffff !important;
-    text-shadow: 1px 1px 1px #575757;
+    color: #F3976C!important;
+    text-shadow: 1px 1px 1px #000000;
 }
 .mg-mdd{
     margin-top: 10px;
@@ -637,6 +650,8 @@ p {
 .h1 {
     font-size: 30px;
     font-family: "Open Sans";
+    /* color: rgb(99, 13, 13);
+    text-shadow: #000000; */
 }
 h4{
     font-size: 25px;
@@ -679,7 +694,9 @@ h3 {
     box-shadow: 0px 0px 0px #000000;
 }
 h1 {
-    color:#ffffff !important;
+    color:white !important;
+    /* color: rgb(99, 13, 13); */
+    text-shadow: #000000;
 }
 /* h4 {
     color: #333333 !important;
@@ -689,8 +706,8 @@ h1 {
     margin-top: 24px;
 }
 .white {
-    /* color: white !important; */
-    font-size: 1.2em;
+    color: #000000 !important;
+    font-size: 1.5em;
     /* text-shadow: 1px 1px 1px black; */
 }
  
@@ -735,19 +752,19 @@ h1 {
     font-size: 1.2em;
 }
 a:link {
-    color: #ffffff !important;
+    color: #000000 !important;
     
 }
 .btn-atomic-tangerine:hover {
     /* background: #364577 !important; */
-    color: #ffffff !important;
+    color: #000000 !important;
 }
 .ltc-white {
-    color: white  !important;
+    color: #000000  !important;
     font-size: 1.5em;
 }
 .ltc-white:hover {
-    color:#333333 !important;
+    color:#3c885e !important;
 }
 .ltc-atomic-tangerine {
     color: #364577 !important;
@@ -1047,18 +1064,4 @@ blockquote {
         max-width: 320px;
     }
    
-}
-
-
-
-li:hover {
-    text-decoration: underline;
-   
-}
-
-
-.black{
-    /* background:  rgba(41, 61, 126, 0.5) ; */
-    background-color: rgb(247 207 152 / 50%);
-    padding: 20px 20px 20px 20px;
 }
