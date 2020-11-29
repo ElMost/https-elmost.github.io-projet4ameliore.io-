@@ -740,10 +740,10 @@ h1 {
     background-color:#F3976C !important;
 }
 .tc-white {
-    color:burlywood !important;
+    color:rgb(247 207 152)!important;
     text-shadow: #000000;
     /* background-color: beige; */
-    opacity: 1.5;
+    /* opacity: 1.5; */
     /* border-radius: 20px; */
     
 }
