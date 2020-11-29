@@ -740,8 +740,11 @@ h1 {
     background-color:#F3976C !important;
 }
 .tc-white {
-    color:beige !important;
+    color:burlywood !important;
     text-shadow: #000000;
+    /* background-color: beige; */
+    opacity: 1.5;
+    /* border-radius: 20px; */
     
 }
 .tan {
