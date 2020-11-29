@@ -270,7 +270,7 @@ iframe {
     padding-left: 0;
 }
 #bloc-1-hero h1 {
-    font-size: 35px;
+    font-size: 50px;
 }
 .navbar {
     margin-bottom: 0;
@@ -707,7 +707,7 @@ h1 {
 }
 .white {
     color: #000000 !important;
-    font-size: 1.5em;
+    font-size: 1.4em;
     /* text-shadow: 1px 1px 1px black; */
 }
  
@@ -739,9 +739,11 @@ h1 {
 .bgc-atomic-tangerine {
     background-color:#F3976C !important;
 }
-/* .tc-white {
+.tc-white {
     color: white !important;
-} */
+    text-shadow: #000000;
+    
+}
 .tan {
     font-size: 1.5rem;
 }
