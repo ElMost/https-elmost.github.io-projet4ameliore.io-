@@ -76,6 +76,9 @@ a:hover {
 }
 iframe {
     box-shadow: 5px 5px;
+    width: 100%;
+    height: 480px;
+    
 }
 .bg-center,
 .bg-l-edge,
