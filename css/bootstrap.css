@@ -4373,7 +4373,7 @@ tbody.collapse.in {
     cursor: not-allowed;
     background-color: transparent;
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$color1', endColorstr='$color2', GradientType=0)
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='$color1', endColorstr='$color2', GradientType=0);
 }
 
 .open>.dropdown-menu {
@@ -5106,7 +5106,6 @@ textarea.input-group-sm>.input-group-btn>.btn {
         display: block !important;
         height: auto !important;
         padding-bottom: 0;
-        overflow: visible !important
     }
     .navbar-collapse.in {
         overflow-y: visible
@@ -5124,7 +5123,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
     max-height: 340px
 }
 
-@media (max-device-width:480px) and (orientation:landscape) {
+@media (max-width:480px) and (orientation:landscape) {
     .navbar-fixed-bottom .navbar-collapse,
     .navbar-fixed-top .navbar-collapse {
         max-height: 200px
